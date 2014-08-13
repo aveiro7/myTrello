@@ -1,0 +1,54 @@
+.section {
+	background-color: yellow;
+	width: 30%;
+	height: 400px;
+	color: "black";
+	border-radius: 10px;
+	float: left;
+	padding: 10px;
+	margin: 10px;
+	text-align: center;
+}
+
+textarea {
+	vertical-align: center;
+	background-color: yellow;
+	width: 80%;
+	height: 75%;
+}
+
+
+footer {
+	/*position: fixed;*/
+	bottom: 0;
+	text-align: center;
+	right: 46%;
+	margin-top: 10px;
+}
+
+h1 {
+	text-align: center;
+	color: #FF3300;
+	text-shadow: 2px 2px 1px rgba(0,0,0,.25);
+}
+
+body {
+	background-color: #FFFFCC;
+	font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif;
+}
+
+#save {
+	text-align: center;
+	left: 50%;
+	float: none;
+}
+
+#button {
+	padding: 10px;
+	margin-top: 20px;
+}
+
+#message p {
+	text-align: center;
+	margin-top: 10px;
+}

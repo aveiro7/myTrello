@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>ToDo Board</title>
+	<link rel="stylesheet" href="myTrello.css">
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+	<script>
+		$(document).ready(function (){
+			$('#button').click(function (){
+				$('#message').append('<p>Changes saved.</p>');
+				$('#button').css('margin-top','1px');
+			});
+		});
+	</script>
+</head>
+<body>
+	<header>
+		<h1>Welcome to your ToDo board!</h1>
+	</header>
+	<div name="todo" id="todo" class="section">
+		<h2>To do:</h2>
+		<textarea></textarea>
+	</div>
+	<div name="in_progress" id="in_progress" class="section">
+		<h2>In progress:</h2>
+		<textarea></textarea>
+	</div>
+	<div name="done" id="done" class="section">
+		<h2>Done:</h2>
+		<textarea></textarea>
+	</div>
+	<div id="message" name="message"></div>
+	<div name="save" id="save">
+		<button name="button" id="button">Save changes</button>
+	</div>
+	<footer>
+		<p>Created by aveiro</p>
+	</footer>
+</body>
+</html>
