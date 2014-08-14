@@ -8,18 +8,29 @@
 	padding: 10px;
 	margin: 10px;
 	text-align: center;
+	vertical-align: center;
+}
+
+.task {
+	background-color: #FFFF77;
+	width: 80%;
+	height: 75%;
+	border-radius: 10px;
+	text-align: center;
+	vertical-align: center;
+	margin-left: 10%;
 }
 
 textarea {
 	vertical-align: center;
-	background-color: yellow;
+	background-color: #FFFFBB;
 	width: 80%;
 	height: 75%;
+	margin-top: 10%;
 }
 
 
 footer {
-	/*position: fixed;*/
 	bottom: 0;
 	text-align: center;
 	right: 46%;
