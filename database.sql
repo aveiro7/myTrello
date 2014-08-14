@@ -1,16 +1,16 @@
-CREATE TABLE type (
+CREATE TABLE types (
 	id serial primary key,
 	name varchar DEFAULT 'todo'
 );
 
-CREATE TABLE colour (
+CREATE TABLE colours (
 	id serial primary key,
 	code varchar not null
 );
 
-CREATE TABLE task (
+CREATE TABLE tasks (
 	id serial primary key,
 	value varchar DEFAULT '',
-	type integer REFERENCES type(id),
-	colour integer REFERENCES colour(id)
+	type integer REFERENCES types(id),
+	colour integer REFERENCES colours(id)
 );
