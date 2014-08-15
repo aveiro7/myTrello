@@ -45,6 +45,9 @@ h1 {
 
 body {
 	background-color: #FFFFCC;
+	background-image: url(design/background.jpg);
+	background-repeat: repeat;
+	background-position: top left;
 	font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif;
 }
 
