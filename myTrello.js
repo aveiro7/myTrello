@@ -1,6 +1,7 @@
-$('document').ready(function(){
-	$('.category').clicked(function(){
-		$('.subcategory').show();
+$(document).ready(function() {
+	$('.subcategory').hide();
+
+	$('.category').click(function() {
+		$(this).children().toggle(200);
 	});
 });
-}
