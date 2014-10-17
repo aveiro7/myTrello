@@ -2,6 +2,7 @@ $(document).ready(function() {
 	$('.subcategory').hide();
 
 	$('.category').click(function() {
-		$(this).children().toggle(200);
+		$('.subcategory').hide();
+		$(this).children().toggle();
 	});
 });

@@ -68,7 +68,6 @@ textarea {
 	margin-top: 10%;
 }
 
-
 footer {
 	background-color: #ffff77;
 	bottom: 0;
@@ -79,10 +78,26 @@ footer {
 	padding: 10px;
 }
 
+header {
+	background-color: #ffff77;
+	width: 100%;
+	position: fixed;
+}
+
+.login {
+	vertical-align: center;
+	text-align: right;
+	width: 10%;
+	float: right;
+	margin-top: 30px;
+	margin-right: 40px;
+	position: relative;
+}
+
 h1 {
-	text-align: center;
-	color: #FF3300;
-	text-shadow: 2px 2px 1px rgba(0,0,0,.25);
+	text-align: left;
+	vertical-align: center;
+	float: left;
 }
 
 body {
