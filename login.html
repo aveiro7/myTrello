@@ -2,18 +2,16 @@
 <html>
 	<head>
 		<meta charset="UTF-8">
-		<title>myTrello</title>
+		<title>Log in</title>
 		<link rel="stylesheet" href="myTrello.css">
-		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 		<script src="myTrello.js"></script>
 	</head>
 	<body>
 		<header>
-			<h1>myTrello</h1>
+			<a href="home.html"><h1>myTrello</h1></a>
 			<div class="login">
 				You're not logged in.
-				<a href="login.html">Log in</a>
-				<a href="register.html">Register</a>
 			</div>
 		</header>
 		<div class="extensions">
@@ -44,14 +42,12 @@
 		</div>
 
 		<div class="content">
-			<p>Welcome to myTrello.</p>
-			<p>Please, <a href="sign_in.html">sign in</a> or <a href="register.html">register</a></p>
+			<form>
+				Login: <input type="text" name="login"><br>
+				Password: <input type="password" name="password">
+				<input type="submit" name="submit">
+			</form>
+			Don't have an account? <a href="register.html">Register</a>
 		</div>
-
-		<footer>
-			<a href="about.html">About</a>
-			<a href="contact.html">Contact</a>
-			<a href="faq.html">FAQ</a>
-		</footer>
 	</body>
 </html>

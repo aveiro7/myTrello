@@ -5,8 +5,50 @@
 		<title>Register</title>
 		<link rel="stylesheet" href="myTrello.css">
 		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+		<script src="myTrello.js"></script>
 	</head>
 	<body>
-		This is registration page. We're working on its functionality. Please come back later.
+		<header>
+			<h1>myTrello</h1>
+			<div class="login">
+				You're not logged in.
+			</div>
+		</header>
+		<div class="extensions">
+			<div class="navigator">
+				Search here.
+			</div>
+			<div class="category">
+				ToDo
+				<div class="subcategory">
+					Simple lists
+				</div>
+				<div class="subcategory">
+					Extended lists
+				</div>
+			</div>
+			<div class="category">
+				Productivity
+				<div class="subcategory">
+					Some subcategory
+				</div>
+			</div>
+			<div class="category">
+				Random
+			</div>
+			<div class="category">
+				Create your own extension
+			</div>
+		</div>
+		<div class="content">
+			<form>
+				First name: <input type="text" name="first_name"><br>
+				Last name: <input type="text" name="last_name"><br>
+				E-mail: <input type="mail" name="mail"><br>
+				Password: <input type="password" name="password"><br>
+				Confirm password: <input type="password" name="password2"><br>
+				<input type="submit" name="submit">
+			</form>
+		</div>
 	</body>
 </html>
