@@ -7,6 +7,7 @@
 	float: left;
 	padding: 10px;
 	margin: 10px;
+	margin-top: 70px;
 	text-align: center;
 	vertical-align: center;
 }
@@ -102,7 +103,7 @@ h1 {
 
 body {
 	background-color: #FFFFCC;
-	background-image: url(design/background.jpg);
+	//background-image: url(design/background.jpg);
 	background-repeat: repeat;
 	background-position: top left;
 	font-family: Architects-Daughter, Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif;
