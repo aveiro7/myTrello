@@ -105,7 +105,7 @@ body {
 	background-image: url(design/background.jpg);
 	background-repeat: repeat;
 	background-position: top left;
-	font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif;
+	font-family: Architects-Daughter, Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif;
 }
 
 #save {
@@ -122,4 +122,9 @@ body {
 #message p {
 	text-align: center;
 	margin-top: 10px;
+}
+
+@font-face {
+    font-family: Architects-Daughter;
+    src: url(design/architects-daughter/ArchitectsDaughter.ttf)
 }
